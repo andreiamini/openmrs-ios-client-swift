@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146F86BD1A2CF4E1008361AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F86BC1A2CF4E1008361AC /* AppDelegate.swift */; };
+		146F86C01A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 146F86BE1A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodeld */; };
+		146F86C21A2CF4E1008361AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F86C11A2CF4E1008361AC /* ViewController.swift */; };
+		146F86C51A2CF4E1008361AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146F86C31A2CF4E1008361AC /* Main.storyboard */; };
+		146F86C71A2CF4E2008361AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146F86C61A2CF4E2008361AC /* Images.xcassets */; };
+		146F86CA1A2CF4E2008361AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146F86C81A2CF4E2008361AC /* LaunchScreen.xib */; };
+		146F86D61A2CF4E2008361AC /* openmrs_ios_client_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F86D51A2CF4E2008361AC /* openmrs_ios_client_swiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		146F86D01A2CF4E2008361AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146F86AF1A2CF4E1008361AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 146F86B61A2CF4E1008361AC;
+			remoteInfo = "openmrs-ios-client-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		146F86B71A2CF4E1008361AC /* openmrs-ios-client-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "openmrs-ios-client-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		146F86BB1A2CF4E1008361AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146F86BC1A2CF4E1008361AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		146F86BF1A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = openmrs_ios_client_swift.xcdatamodel; sourceTree = "<group>"; };
+		146F86C11A2CF4E1008361AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		146F86C41A2CF4E1008361AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		146F86C61A2CF4E2008361AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		146F86C91A2CF4E2008361AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		146F86CF1A2CF4E2008361AC /* openmrs-ios-client-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "openmrs-ios-client-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		146F86D41A2CF4E2008361AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146F86D51A2CF4E2008361AC /* openmrs_ios_client_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openmrs_ios_client_swiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146F86B41A2CF4E1008361AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146F86CC1A2CF4E2008361AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146F86AE1A2CF4E1008361AC = {
+			isa = PBXGroup;
+			children = (
+				146F86B91A2CF4E1008361AC /* openmrs-ios-client-swift */,
+				146F86D21A2CF4E2008361AC /* openmrs-ios-client-swiftTests */,
+				146F86B81A2CF4E1008361AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		146F86B81A2CF4E1008361AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146F86B71A2CF4E1008361AC /* openmrs-ios-client-swift.app */,
+				146F86CF1A2CF4E2008361AC /* openmrs-ios-client-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146F86B91A2CF4E1008361AC /* openmrs-ios-client-swift */ = {
+			isa = PBXGroup;
+			children = (
+				146F86BC1A2CF4E1008361AC /* AppDelegate.swift */,
+				146F86C11A2CF4E1008361AC /* ViewController.swift */,
+				146F86C31A2CF4E1008361AC /* Main.storyboard */,
+				146F86C61A2CF4E2008361AC /* Images.xcassets */,
+				146F86C81A2CF4E2008361AC /* LaunchScreen.xib */,
+				146F86BE1A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodeld */,
+				146F86BA1A2CF4E1008361AC /* Supporting Files */,
+			);
+			path = "openmrs-ios-client-swift";
+			sourceTree = "<group>";
+		};
+		146F86BA1A2CF4E1008361AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146F86BB1A2CF4E1008361AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		146F86D21A2CF4E2008361AC /* openmrs-ios-client-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				146F86D51A2CF4E2008361AC /* openmrs_ios_client_swiftTests.swift */,
+				146F86D31A2CF4E2008361AC /* Supporting Files */,
+			);
+			path = "openmrs-ios-client-swiftTests";
+			sourceTree = "<group>";
+		};
+		146F86D31A2CF4E2008361AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146F86D41A2CF4E2008361AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146F86B61A2CF4E1008361AC /* openmrs-ios-client-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146F86D91A2CF4E2008361AC /* Build configuration list for PBXNativeTarget "openmrs-ios-client-swift" */;
+			buildPhases = (
+				146F86B31A2CF4E1008361AC /* Sources */,
+				146F86B41A2CF4E1008361AC /* Frameworks */,
+				146F86B51A2CF4E1008361AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "openmrs-ios-client-swift";
+			productName = "openmrs-ios-client-swift";
+			productReference = 146F86B71A2CF4E1008361AC /* openmrs-ios-client-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		146F86CE1A2CF4E2008361AC /* openmrs-ios-client-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146F86DC1A2CF4E2008361AC /* Build configuration list for PBXNativeTarget "openmrs-ios-client-swiftTests" */;
+			buildPhases = (
+				146F86CB1A2CF4E2008361AC /* Sources */,
+				146F86CC1A2CF4E2008361AC /* Frameworks */,
+				146F86CD1A2CF4E2008361AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				146F86D11A2CF4E2008361AC /* PBXTargetDependency */,
+			);
+			name = "openmrs-ios-client-swiftTests";
+			productName = "openmrs-ios-client-swiftTests";
+			productReference = 146F86CF1A2CF4E2008361AC /* openmrs-ios-client-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146F86AF1A2CF4E1008361AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = openmrs;
+				TargetAttributes = {
+					146F86B61A2CF4E1008361AC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					146F86CE1A2CF4E2008361AC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 146F86B61A2CF4E1008361AC;
+					};
+				};
+			};
+			buildConfigurationList = 146F86B21A2CF4E1008361AC /* Build configuration list for PBXProject "openmrs-ios-client-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146F86AE1A2CF4E1008361AC;
+			productRefGroup = 146F86B81A2CF4E1008361AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146F86B61A2CF4E1008361AC /* openmrs-ios-client-swift */,
+				146F86CE1A2CF4E2008361AC /* openmrs-ios-client-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146F86B51A2CF4E1008361AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146F86C51A2CF4E1008361AC /* Main.storyboard in Resources */,
+				146F86CA1A2CF4E2008361AC /* LaunchScreen.xib in Resources */,
+				146F86C71A2CF4E2008361AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146F86CD1A2CF4E2008361AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146F86B31A2CF4E1008361AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146F86C21A2CF4E1008361AC /* ViewController.swift in Sources */,
+				146F86BD1A2CF4E1008361AC /* AppDelegate.swift in Sources */,
+				146F86C01A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146F86CB1A2CF4E2008361AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146F86D61A2CF4E2008361AC /* openmrs_ios_client_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		146F86D11A2CF4E2008361AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 146F86B61A2CF4E1008361AC /* openmrs-ios-client-swift */;
+			targetProxy = 146F86D01A2CF4E2008361AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		146F86C31A2CF4E1008361AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146F86C41A2CF4E1008361AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		146F86C81A2CF4E2008361AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146F86C91A2CF4E2008361AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		146F86D71A2CF4E2008361AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		146F86D81A2CF4E2008361AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		146F86DA1A2CF4E2008361AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "openmrs-ios-client-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		146F86DB1A2CF4E2008361AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "openmrs-ios-client-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		146F86DD1A2CF4E2008361AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "openmrs-ios-client-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openmrs-ios-client-swift.app/openmrs-ios-client-swift";
+			};
+			name = Debug;
+		};
+		146F86DE1A2CF4E2008361AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "openmrs-ios-client-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/openmrs-ios-client-swift.app/openmrs-ios-client-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146F86B21A2CF4E1008361AC /* Build configuration list for PBXProject "openmrs-ios-client-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146F86D71A2CF4E2008361AC /* Debug */,
+				146F86D81A2CF4E2008361AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146F86D91A2CF4E2008361AC /* Build configuration list for PBXNativeTarget "openmrs-ios-client-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146F86DA1A2CF4E2008361AC /* Debug */,
+				146F86DB1A2CF4E2008361AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		146F86DC1A2CF4E2008361AC /* Build configuration list for PBXNativeTarget "openmrs-ios-client-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146F86DD1A2CF4E2008361AC /* Debug */,
+				146F86DE1A2CF4E2008361AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		146F86BE1A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				146F86BF1A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodel */,
+			);
+			currentVersion = 146F86BF1A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodel */;
+			path = openmrs_ios_client_swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 146F86AF1A2CF4E1008361AC /* Project object */;
+}
