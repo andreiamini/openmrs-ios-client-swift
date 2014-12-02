@@ -14,6 +14,12 @@
 		146F86C71A2CF4E2008361AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146F86C61A2CF4E2008361AC /* Images.xcassets */; };
 		146F86CA1A2CF4E2008361AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146F86C81A2CF4E2008361AC /* LaunchScreen.xib */; };
 		146F86D61A2CF4E2008361AC /* openmrs_ios_client_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F86D51A2CF4E2008361AC /* openmrs_ios_client_swiftTests.swift */; };
+		146F86E01A2CF521008361AC /* openmrs-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 146F86DF1A2CF521008361AC /* openmrs-logo.png */; };
+		146F86E21A2CF528008361AC /* texasmedicalcenter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 146F86E11A2CF528008361AC /* texasmedicalcenter.jpg */; };
+		146F86E41A2CF55D008361AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F86E31A2CF55D008361AC /* LoginViewController.swift */; };
+		146F86E61A2D1595008361AC /* magnifier13.png in Resources */ = {isa = PBXBuildFile; fileRef = 146F86E51A2D1595008361AC /* magnifier13.png */; };
+		146F86E81A2D1692008361AC /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F86E71A2D1692008361AC /* MainMenuViewController.swift */; };
+		146F86EC1A2D20C6008361AC /* FindPatientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F86EB1A2D20C6008361AC /* FindPatientsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		146F86CF1A2CF4E2008361AC /* openmrs-ios-client-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "openmrs-ios-client-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		146F86D41A2CF4E2008361AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		146F86D51A2CF4E2008361AC /* openmrs_ios_client_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openmrs_ios_client_swiftTests.swift; sourceTree = "<group>"; };
+		146F86DF1A2CF521008361AC /* openmrs-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "openmrs-logo.png"; path = "../../../Downloads/openmrs-logo.png"; sourceTree = "<group>"; };
+		146F86E11A2CF528008361AC /* texasmedicalcenter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = texasmedicalcenter.jpg; path = ../../../Downloads/texasmedicalcenter.jpg; sourceTree = "<group>"; };
+		146F86E31A2CF55D008361AC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		146F86E51A2D1595008361AC /* magnifier13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnifier13.png; path = ../../../Downloads/magnifier13.png; sourceTree = "<group>"; };
+		146F86E71A2D1692008361AC /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		146F86EB1A2D20C6008361AC /* FindPatientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindPatientsTableViewController.swift; path = ../FindPatientsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +92,16 @@
 			isa = PBXGroup;
 			children = (
 				146F86BC1A2CF4E1008361AC /* AppDelegate.swift */,
+				146F86EB1A2D20C6008361AC /* FindPatientsTableViewController.swift */,
+				146F86E31A2CF55D008361AC /* LoginViewController.swift */,
 				146F86C11A2CF4E1008361AC /* ViewController.swift */,
 				146F86C31A2CF4E1008361AC /* Main.storyboard */,
+				146F86E71A2D1692008361AC /* MainMenuViewController.swift */,
 				146F86C61A2CF4E2008361AC /* Images.xcassets */,
 				146F86C81A2CF4E2008361AC /* LaunchScreen.xib */,
+				146F86E11A2CF528008361AC /* texasmedicalcenter.jpg */,
+				146F86DF1A2CF521008361AC /* openmrs-logo.png */,
+				146F86E51A2D1595008361AC /* magnifier13.png */,
 				146F86BE1A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodeld */,
 				146F86BA1A2CF4E1008361AC /* Supporting Files */,
 			);
@@ -195,7 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146F86E61A2D1595008361AC /* magnifier13.png in Resources */,
 				146F86C51A2CF4E1008361AC /* Main.storyboard in Resources */,
+				146F86E21A2CF528008361AC /* texasmedicalcenter.jpg in Resources */,
+				146F86E01A2CF521008361AC /* openmrs-logo.png in Resources */,
 				146F86CA1A2CF4E2008361AC /* LaunchScreen.xib in Resources */,
 				146F86C71A2CF4E2008361AC /* Images.xcassets in Resources */,
 			);
@@ -215,6 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146F86EC1A2D20C6008361AC /* FindPatientsTableViewController.swift in Sources */,
+				146F86E41A2CF55D008361AC /* LoginViewController.swift in Sources */,
+				146F86E81A2D1692008361AC /* MainMenuViewController.swift in Sources */,
 				146F86C21A2CF4E1008361AC /* ViewController.swift in Sources */,
 				146F86BD1A2CF4E1008361AC /* AppDelegate.swift in Sources */,
 				146F86C01A2CF4E1008361AC /* openmrs_ios_client_swift.xcdatamodeld in Sources */,
